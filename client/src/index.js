@@ -13,7 +13,7 @@ ReactDOM.render(
     <BrowserRouter>
     <div className="App">
     <NavBar/>
-    <Route exact path="/" component={App}/>
+    <Route exact path="/" component={Login}/>
     <Route path="/login" component={Login}/>
     <Route path="/notes" component={Notes}/>
     
